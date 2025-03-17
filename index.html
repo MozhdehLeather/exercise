@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paraspinal Exercises</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #007BFF;
+        }
+        h2 {
+            color: #E74C3C;
+        }
+        h3 {
+            color: #27AE60;
+        }
+        ul {
+            text-align: left;
+            padding-left: 20px;
+        }
+        .section {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 8px;
+            background: #f9f9f9;
+            transition: all 0.3s;
+        }
+        .section:hover {
+            background: #e0e0e0;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🧘‍♂️ Paraspinal Exercises</h1>
+        <p>Follow these simple exercises to stretch and strengthen your spine! 🏋️‍♂️</p>
+        
+        <div class="section">
+            <h2>1️⃣ Stretching the Right Side</h2>
+            <h3>🔹 Side Bend Stretch</h3>
+            <ul>
+                <li>Stand with feet shoulder-width apart 👣</li>
+                <li>Raise your left hand over your head 🙋‍♂️</li>
+                <li>Slowly bend towards the right side ➡️</li>
+                <li>Hold for <b>15-20 seconds</b> and return to normal ⏳</li>
+                <li>Repeat <b>3-5 times</b> 🔁</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>2️⃣ Strengthening the Left Side</h2>
+            <h3>🔹 Superman Exercise</h3>
+            <ul>
+                <li>Lie on your stomach on a soft surface 🛏️</li>
+                <li>Stretch your hands forward ✋</li>
+                <li>Slowly lift your left arm and right leg at the same time ⬆️</li>
+                <li>Hold for <b>5 seconds</b>, then relax ⏳</li>
+                <li>Repeat <b>10 times</b> 🔁</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>3️⃣ General Spinal Stretch</h2>
+            <h3>🔹 Cat-Cow Stretch</h3>
+            <ul>
+                <li>Get on all fours 🐱</li>
+                <li><b>Cow Pose:</b> Look up, arch your back downwards 🐄</li>
+                <li><b>Cat Pose:</b> Look down, round your back upwards 🐈</li>
+                <li>Repeat <b>10 times</b> 🔁</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>✅ Additional Tips</h2>
+            <ul>
+                <li>Do exercises <b>daily</b> for best results 📅</li>
+                <li>Go slow and steady, don’t force movements 🐢</li>
+                <li>Maintain good posture throughout the day 🏋️</li>
+                <li>Follow up with the doctor regularly 🩺</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            $(".section").click(function() {
+                $(this).toggleClass("highlight");
+            });
+        });
+    </script>
+</body>
+</html>
